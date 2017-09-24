@@ -5,7 +5,7 @@ import java.util.List;
 public class Hospital {
 
 	private String name;
-	private List<String> department;
+	private List<String> departments;
 
 	public String getName() {
 		return name;
@@ -15,12 +15,12 @@ public class Hospital {
 		this.name = name;
 	}
 
-	public List<String> getDepartment() {
-		return department;
+	public List<String> getDepartments() {
+		return departments;
 	}
 
-	public void setDepartment(List<String> department) {
-		this.department = department;
+	public void setDepartments(List<String> departments) {
+		this.departments = departments;
 	}
 
 }
