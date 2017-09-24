@@ -10,7 +10,6 @@
 	<bean name="emp" class="com.alsu.spring.springcore.Employee">
 		<property name="id" value='20' />
 		<property name="name" value="Alsu" />
-
 	</bean>
 
 </beans>
